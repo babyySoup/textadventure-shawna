@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63428795480401c4f822c898c24f5bcc, type: 3}
+  m_Name: Cat
+  m_EditorClassIdentifier: 
+  noun: cat
+  description: oh oh oh you see something!! its a glowing cat!! It is BLUE.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 0902847afba323347b2920e44b1f7b0b, type: 2}
+    textResponse: 'Woah, never seen a blue cat, look at her fur,,,,, so gourgeous! '
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: d41d0beb2025c974e86a3fe9c8ec4891, type: 2}
+    textResponse: hehehe you take the cat and stuff it into ur bag. The cat is meowing,
+      does she knows the way?
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 3afb7dc99b07f234caa9d003d43b7dab, type: 2}
+    textResponse: hehehe you take the cat and stuff it into ur bag.
+    actionResponse: {fileID: 11400000, guid: b920df60a8cdc0143ac8af52824e051d, type: 2}
